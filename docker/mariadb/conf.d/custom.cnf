@@ -1,0 +1,32 @@
+[mysqld]
+# Optimización de rendimiento
+innodb_buffer_pool_size = 512M
+innodb_log_file_size = 128M
+innodb_flush_log_at_trx_commit = 2
+innodb_flush_method = O_DIRECT
+max_connections = 100
+
+# Configuración de caracteres
+character-set-server = utf8mb4
+collation-server = utf8mb4_unicode_ci
+
+# Optimización de consultas
+query_cache_type = 1
+query_cache_size = 128M
+query_cache_limit = 2M
+
+# Configuración de logs
+slow_query_log = 1
+slow_query_log_file = /var/log/mysql/slow-query.log
+long_query_time = 2
+
+# Seguridad
+max_allowed_packet = 16M
+skip-name-resolve
+secure-file-priv = /var/lib/mysql-files
+
+[client]
+default-character-set = utf8mb4
+
+[mysql]
+default-character-set = utf8mb4

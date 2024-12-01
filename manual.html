@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuario - Red de Innovación FP</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #4b5563;
+            --accent: #8b5cf6;
+        }
+        
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        h1, h2, h3 {
+            color: var(--primary);
+        }
+        
+        .role-section {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+        }
+        
+        .module {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #f9fafb;
+            border-radius: 0.375rem;
+        }
+        
+        .module h4 {
+            color: var(--secondary);
+            margin-top: 0;
+        }
+        
+        .steps {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .steps li {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .steps li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+        }
+        
+        .note {
+            background: #eff6ff;
+            padding: 1rem;
+            border-left: 4px solid var(--primary);
+            margin: 1rem 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            border: 1px solid #e5e7eb;
+            text-align: left;
+        }
+        
+        th {
+            background: #f3f4f6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manual de Usuario - Red de Innovación FP</h1>
+    
+    <div class="role-section">
+        <h2>Administrador del Sistema</h2>
+        
+        <div class="module">
+            <h4>Gestión de Usuarios</h4>
+            <ul class="steps">
+                <li>Crear nuevos usuarios y asignar roles</li>
+                <li>Generar códigos de registro</li>
+                <li>Gestionar permisos y accesos</li>
+                <li>Resetear contraseñas</li>
+            </ul>
+            <div class="note">
+                Los códigos de registro son válidos por 7 días y pueden usarse una sola vez.
+            </div>
+        </div>
+        
+        <div class="module">
+            <h4>Configuración del Sistema</h4>
+            <ul class="steps">
+                <li>Personalizar apariencia (logo, colores)</li>
+                <li>Configurar servidor de correo</li>
+                <li>Gestionar videoconferencias</li>
+                <li>Administrar roles y permisos</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h4>Registros Maestros</h4>
+            <ul class="steps">
+                <li>Gestionar redes de centros</li>
+                <li>Administrar centros educativos</li>
+                <li>Configurar familias profesionales</li>
+                <li>Definir departamentos</li>
+                <li>Establecer objetivos estratégicos</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="role-section">
+        <h2>Coordinador General</h2>
+        
+        <div class="module">
+            <h4>Gestión de Acciones</h4>
+            <ul class="steps">
+                <li>Crear y editar acciones para toda la red</li>
+                <li>Aprobar acciones propuestas</li>
+                <li>Asignar objetivos estratégicos</li>
+                <li>Evaluar resultados</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h4>Reportes y Estadísticas</h4>
+            <ul class="steps">
+                <li>Generar informes globales</li>
+                <li>Analizar indicadores de rendimiento</li>
+                <li>Exportar datos a Excel</li>
+                <li>Visualizar gráficos interactivos</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h4>Calendario y Reuniones</h4>
+            <ul class="steps">
+                <li>Programar reuniones de red</li>
+                <li>Gestionar videoconferencias</li>
+                <li>Enviar convocatorias por email</li>
+                <li>Dar seguimiento a acuerdos</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="role-section">
+        <h2>Coordinador de Subred</h2>
+        
+        <div class="module">
+            <h4>Gestión de Centro</h4>
+            <ul class="steps">
+                <li>Administrar acciones del centro</li>
+                <li>Coordinar departamentos</li>
+                <li>Gestionar participantes</li>
+                <li>Asignar responsables</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h4>Seguimiento</h4>
+            <ul class="steps">
+                <li>Monitorear progreso de acciones</li>
+                <li>Validar participación</li>
+                <li>Revisar valoraciones</li>
+                <li>Generar informes de centro</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h4>Comunicación</h4>
+            <ul class="steps">
+                <li>Coordinar con otros centros</li>
+                <li>Organizar reuniones locales</li>
+                <li>Difundir buenas prácticas</li>
+                <li>Gestionar notificaciones</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="role-section">
+        <h2>Gestor</h2>
+        
+        <div class="module">
+            <h4>Registro de Acciones</h4>
+            <ul class="steps">
+                <li>Crear nuevas acciones</li>
+                <li>Documentar actividades</li>
+                <li>Subir imágenes y archivos</li>
+                <li>Registrar participantes</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h4>Participación</h4>
+            <ul class="steps">
+                <li>Unirse a acciones existentes</li>
+                <li>Valorar actividades</li>
+                <li>Añadir comentarios</li>
+                <li>Compartir experiencias</li>
+            </ul>
+        </div>
+        
+        <div class="module">
+            <h4>Consulta</h4>
+            <ul class="steps">
+                <li>Ver calendario de actividades</li>
+                <li>Consultar documentación</li>
+                <li>Acceder al observatorio</li>
+                <li>Revisar estadísticas personales</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="role-section">
+        <h2>Tabla de Permisos por Rol</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Módulo</th>
+                    <th>Administrador</th>
+                    <th>Coordinador General</th>
+                    <th>Coordinador Subred</th>
+                    <th>Gestor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Usuarios</td>
+                    <td>CRUD</td>
+                    <td>Lectura</td>
+                    <td>Lectura</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Acciones</td>
+                    <td>CRUD</td>
+                    <td>CRUD</td>
+                    <td>CRUD (Red)</td>
+                    <td>CRU (Centro)</td>
+                </tr>
+                <tr>
+                    <td>Registros Maestros</td>
+                    <td>CRUD</td>
+                    <td>Lectura</td>
+                    <td>Lectura</td>
+                    <td>Lectura</td>
+                </tr>
+                <tr>
+                    <td>Reportes</td>
+                    <td>CRUD</td>
+                    <td>CRUD</td>
+                    <td>Lectura</td>
+                    <td>Lectura</td>
+                </tr>
+                <tr>
+                    <td>Observatorio</td>
+                    <td>CRUD</td>
+                    <td>CRUD</td>
+                    <td>CRU</td>
+                    <td>Lectura</td>
+                </tr>
+                <tr>
+                    <td>Configuración</td>
+                    <td>CRUD</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note">
+            CRUD: Create (Crear), Read (Leer), Update (Actualizar), Delete (Eliminar)<br>
+            CRU: Create (Crear), Read (Leer), Update (Actualizar)<br>
+            -: Sin acceso
+        </div>
+    </div>
+</body>
+</html>
